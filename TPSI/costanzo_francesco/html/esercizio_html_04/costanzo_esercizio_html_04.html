@@ -22,7 +22,9 @@
     <h2>Loopback</h2>
     <p>
       IPv4
-      <a href="https://it.wikipedia.org/wiki/Network" target="_blank">network</a>
+      <a href="https://it.wikipedia.org/wiki/Network" target="_blank"
+        >network</a
+      >
       standards <span style="color: red">reserve</span> the entire address block
       127.0.0.0/8 (more than 16 million addresses) for loopback purposes.[2]
       That means any packet sent to any of those addresses is looped back. The
@@ -52,6 +54,11 @@
       127.0.0.1 localhost<br />
       ::1 localhost
       <br /><br />
+      <img
+        src="https://www.computernetworkingnotes.com/wp-content/uploads/networking-tutorials/images/it04-01-ipv-6-structure-and-format.PNG"
+        alt="immagine ipv6, esempio"
+      />
+      <br />
       The name may also be resolved by Domain Name System (DNS) servers, but
       queries for this name should be resolved locally, and should not be
       forwarded to remote name servers. <br />
@@ -65,7 +72,9 @@
       internally.
       <br /><br />
       In the Domain Name
-      <a href="https://it.wikipedia.org/wiki/Sistema_informatico" target="_blank"
+      <a
+        href="https://it.wikipedia.org/wiki/Sistema_informatico"
+        target="_blank"
         >System</a
       >, the name localhost is reserved as a top-level domain name, originally
       set aside to avoid confusion with the hostname used for loopback
@@ -74,6 +83,7 @@
     </p>
 
     <h2>IETF standards</h2>
+    <img src="./ietf.jpeg" alt="immagine ietf" />
 
     <p>
       The name localhost is reserved for loopback purposes by RFC 6761
@@ -119,6 +129,12 @@
     </p>
 
     <h2>Packet processing</h2>
+    <a href="https://en.wikipedia.org/wiki/Packet_processing" target="_blank">
+      <img
+        src="https://www.erg.abdn.ac.uk/users/gorry/course/images/ip-send.gif"
+        alt="schema packet processing"
+      />
+    </a>
     <p>
       The processing of any packet sent to a loopback address, is implemented in
       the link layer of the TCP/IP stack. Such packets are never passed to any
