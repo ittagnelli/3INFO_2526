@@ -1,0 +1,14 @@
+.container { width: 500px; border: 1px solid #ccc; padding: 10px; overflow: hidden; }
+
+.box {
+  width: 100px; height: 100px;
+  background-color: #7b1fa2;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.left { float: left; margin-right: 15px; }
+
+.right { float: right; margin-left: 15px; }
+
+p { text-align: center; }

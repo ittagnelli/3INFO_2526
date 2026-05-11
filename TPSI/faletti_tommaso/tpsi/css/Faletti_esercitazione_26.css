@@ -1,0 +1,19 @@
+.container {
+  background-color: #7b1fa2; 
+  padding: 40px;
+  color: white;
+  overflow: hidden; 
+}
+
+.box-right {
+  float: right;
+  width: 150px;
+  height: 150px;
+  background-color: #c8e6c9; 
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-left: 20px;
+}
