@@ -1,0 +1,84 @@
+/* Reset di base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Impact', 'Arial Black', sans-serif; 
+}
+
+body {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.hero-container {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    height: 450px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    background-color: #fff;
+}
+
+
+.text-section {
+    flex: 1; 
+    background-color: #d4e117; 
+    display: flex;
+    align-items: center; 
+    padding: 50px;
+}
+
+.text-content {
+    width: 100%;
+}
+
+.name {
+    font-size: 48px;
+    line-height: 0.95;
+    color: #1e272c; 
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.role {
+    font-family: Arial, sans-serif; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #1e272c;
+    line-height: 1.4;
+}
+
+
+.image-section {
+    flex: 1; 
+    background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80');
+    background-size: cover;
+    background-position: center;
+    
+    
+    position: relative; 
+}
+
+
+.floating-badge {
+    position: absolute;
+    bottom: 30px;
+    left: 30px; 
+    
+    background-color: #d4e117; 
+    color: #1e272c;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px 24px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-transform: uppercase;
+}
