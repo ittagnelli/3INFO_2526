@@ -1,0 +1,16 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid rgb(138, 143, 205);
+    border-spacing: 5px;
+}
+
+img {
+    width: 150px;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+#font1 {
+    font-family: Audiowide, sans-serif;
+}
+
+ul.cerchio {
+  list-style-type: circle;
+}
+
+ol.romani {
+    list-style-type: upper-roman;
+}
+
+ul.icona {
+    list-style-type: none;
+}
+
+ul.icona > li:before {
+    content: 'done_outline';
+    font-family: 'Material Icons';
+    color: red;
+    vertical-align: -10%;
+    padding-right: 10px;
+}
+
+.blu {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.rosso {
+    color: red;
+}
+
+.arancione {
+    color: orange;
+}
+
+.grigio{
+    color: gray;
+}

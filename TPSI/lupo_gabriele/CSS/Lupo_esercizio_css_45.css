@@ -1,0 +1,20 @@
+.container {
+    border-radius: 5px;
+    border: 2px solid #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 5px;
+    width: calc(175px*3 + 3px*3*2 + 10px*3*2);
+    justify-content: center;
+}
+
+.item {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 175px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #6ba8b8;
+    background-color: #496b97;
+    color: white;
+}

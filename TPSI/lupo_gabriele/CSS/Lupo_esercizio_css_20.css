@@ -1,0 +1,42 @@
+h1 {
+    text-transform: uppercase;
+    color: blue;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: red;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+#destra {
+    text-align: right;
+}
+
+.blu {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+.rosso {
+    color: red;
+}
+
+.arancione {
+    color: orange;
+}
+
+.grigio{
+    color: gray;
+}
+
+.cit {
+    text-shadow: 2px 2px 2px blue;
+}

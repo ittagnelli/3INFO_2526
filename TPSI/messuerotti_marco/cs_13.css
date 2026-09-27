@@ -1,7 +1,0 @@
-
-tr:nth-child(2n){
-    background: black;
-}
-td:nth-child(2n){
-    background: white;
-}

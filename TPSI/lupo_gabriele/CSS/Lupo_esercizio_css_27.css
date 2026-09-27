@@ -1,0 +1,14 @@
+div:first-child {
+    border: 10px solid purple;
+    background-color: purple;
+    border-radius: 5px;
+    padding-right: 70px;
+    padding-bottom: 60px;
+    margin-right: 10px;
+    color: white;
+    float: left;
+}
+
+div:last-child {
+    margin-top: 80px;
+}

@@ -1,0 +1,12 @@
+div > div {
+    display: inline;
+    background-color: yellow;
+}
+
+div:nth-child(odd) > div:nth-child(odd) {
+    background-color: red;
+}
+
+div:nth-child(even) > div:nth-child(even) {
+    background-color: red;
+}

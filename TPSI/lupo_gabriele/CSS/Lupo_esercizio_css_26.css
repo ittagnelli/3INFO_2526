@@ -1,0 +1,19 @@
+body > div {
+    border: 10px solid purple;
+    background-color: purple;
+    float: left;
+}
+
+div {
+    color: white;
+}
+
+div > div {
+    margin-left: 10px;
+    border: 10px solid aquamarine;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding-right: 70px;
+    padding-bottom: 80px;
+    float: right;
+}

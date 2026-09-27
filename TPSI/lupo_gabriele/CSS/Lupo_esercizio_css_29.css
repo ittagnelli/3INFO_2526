@@ -1,0 +1,28 @@
+body > div {
+    margin-left: 338px;
+    margin-right: 338px;
+    border: 20px solid rgb(138, 143, 205);
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+
+body > div > div div {
+    display: inline;
+}
+
+img {
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+body > div > div:last-child div {
+    padding-left: 52px;
+    padding-right: 52px;
+    margin: 2.5px;
+    margin-top: 95px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}

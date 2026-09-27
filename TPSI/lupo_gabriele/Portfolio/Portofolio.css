@@ -1,0 +1,57 @@
+.tutto {
+    background-color: rgb(226, 240, 245);
+}
+
+.copertina {
+    width: 100%;
+    border-radius: 0px;
+}
+
+h1, h2, h3, td, p, th  {
+    color: #3260E3;
+}
+
+h1, h2, th {
+    font-family: 'Martel Sans', monospace, 'Monaco';
+    text-align: center;
+    font-size: 30px;
+}
+
+h3, a, td, p {
+    font-family: 'Overlock', cursive, 'Lucida Handwriting';
+    font-size: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    border: 10px solid #FAA916;
+    border-radius: 10px;
+}
+
+th {
+    text-decoration: underline;
+    text-decoration-color: #FAA916;
+}
+
+img {
+    width: 400px;
+    border-radius: 30px;
+}
+
+hr {
+    background-color: #091540;
+    height: 10px;
+    margin: 20px;
+}
+
+a:hover {
+    background-color: #FAA916;
+}
+
+a {
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}

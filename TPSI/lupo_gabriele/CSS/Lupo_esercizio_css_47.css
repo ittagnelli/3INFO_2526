@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 430px;
+    border: 2px solid #e6e6e6;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.item {
+    text-align: left;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #6ba8b8;
+    background-color: #496b97;
+    color: white;
+}
+
+#row1 {
+    width: calc((430px - 2px*4*2 - 10px*4*2 - 10px*4*2)/4);
+}
+
+#row2, #row3 {
+    width: calc((430px - 2px*3*2 - 10px*3*2 - 10px*3*2)/3);
+}
