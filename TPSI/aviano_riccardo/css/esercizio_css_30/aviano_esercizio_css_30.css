@@ -1,0 +1,11 @@
+img {
+    width: 600px;
+}
+
+.scritta {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: yellow;
+    font-size: xx-large;
+}

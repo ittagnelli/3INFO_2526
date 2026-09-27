@@ -1,0 +1,42 @@
+p {
+    font-size: x-large;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    
+}
+
+.arancione {
+    width: 100%;
+    background-color: orange;
+    float: left;
+    
+}
+
+.cont {
+    width:100%;
+}
+.cont > div{
+    display: inline;
+    float: left;
+    height: 780px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.giallo {
+    width: 30%;
+    background-color: yellow;
+}
+
+.blu {
+    width: 70%;
+    background-color: blue;
+}
+
+.verde {
+    width: 100%;
+    background-color: greenyellow;
+    float: left;
+}

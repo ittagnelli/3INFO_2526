@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+h4 > a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+h4 > a:hover {
+    color: blue;
+    text-shadow: 0 0 15px blue;
+}
+
+.title-blu {
+    color: blue;
+    text-align: center;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: blue;
+    text-shadow: 0 0 15px blue;
+}
+
+.cod-fisc {
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    background-color: rgb(47, 70, 148);
+    width: 200px;
+    height: 400px;
+    color: white;
+    border: solid, 3px, lightblue;
+    border-radius: 3px;
+}

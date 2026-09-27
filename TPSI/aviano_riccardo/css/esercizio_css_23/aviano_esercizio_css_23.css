@@ -1,0 +1,13 @@
+.navbar div {
+    float: left;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar div:hover {
+    background-color: grey;
+    color: white;
+}

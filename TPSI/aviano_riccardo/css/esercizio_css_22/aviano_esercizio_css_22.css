@@ -1,0 +1,13 @@
+.navbar li {
+    float: left;
+    text-align: center;
+    background-color: black;
+    color: white;
+    list-style: none;
+    padding: 20px;
+}
+
+.navbar li:hover {
+    background-color: grey;
+    color: white;
+}

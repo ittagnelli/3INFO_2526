@@ -1,0 +1,18 @@
+table {
+    border: 20px solid blue;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
