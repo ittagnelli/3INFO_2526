@@ -1,0 +1,18 @@
+h1{
+    color: blue;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: capitalize;
+    color: red;
+    text-decoration: underline;
+}
+
+.g{
+    text-align: right;
+}
+
+#quote{
+    text-shadow: 3px 3px 5px greenyellow;
+}

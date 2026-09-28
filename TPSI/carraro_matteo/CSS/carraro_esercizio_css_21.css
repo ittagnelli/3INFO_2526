@@ -1,0 +1,37 @@
+.lg{
+    text-transform: uppercase;
+    color: brown;
+    font-family: "League Gothic", sans-serif;
+}
+
+.so{
+    font-family: "Honk", system-ui;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+.f22{
+    font-family: "Chiron GoRound TC", sans-serif;
+    color: rgb(0, 128, 17);
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+ol{
+    list-style: upper-roman;
+}
+
+ul.bb {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.bb li::before {
+  font-family: 'Material Symbols Outlined';
+  content: 'star';
+  margin-right: 8px;
+  vertical-align: middle;
+}

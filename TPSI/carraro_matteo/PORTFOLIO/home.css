@@ -1,0 +1,87 @@
+#t1{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 50px;
+}
+
+html,body,table{
+    background-color: rgb(71, 180, 249);
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+}
+
+
+#n1{
+
+    background-color: aliceblue;
+    border: 10px rgb(4, 4, 90);
+    border-style:solid;
+    width: 190px;
+    height: 730px;
+}
+
+.nav{
+    width: 130px;
+    height: 130px;
+    margin:10px;
+    border: 10px rgb(4, 4, 90);
+    padding:10px;
+    border-style:double;
+    text-align: center;
+    color: rgb(4,4,90);
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+}
+
+.im1{
+    margin-top: 20px;
+}
+
+.son {
+    width: 98px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.nav:hover { 
+    background-color: rgb(71, 180, 249);
+    text-decoration: solid;
+    color:rgb(255, 255, 255);
+}
+
+#text{
+    width: 70%;
+    height:80%;
+    padding: 3%;
+    border: rgb(4, 4, 90) 10px solid;
+    margin-left: 150px;
+    margin-right: 5px;
+    color: rgb(4, 4, 90);
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+    align-items: center;
+    background-color: white;
+
+}
+
+table > #td1{
+    height: 80%;
+    width: 70%;
+    background-color: white;
+
+}
+
+table > #td2{
+    height: 190px;
+    height: 730px;
+    
+}

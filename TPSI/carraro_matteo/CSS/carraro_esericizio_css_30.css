@@ -1,0 +1,14 @@
+#n1{
+    margin-left: 350px;
+    height:500px;
+    background-repeat: no-repeat;
+    background-image: url("es30.jpg");
+}
+
+#text{
+    top: 30px;
+    left: 30px;
+    font-size: 50px;
+    color: chartreuse;
+    position: relative;
+}

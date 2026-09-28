@@ -1,0 +1,23 @@
+#cont{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 5px;
+    height: auto;
+    width: 650px;
+}
+
+.item{
+    color: white;
+    text-align: center;
+    background-color: rgb(84, 75, 150);    
+    border: 3px solid rgb(101, 101, 204);
+    padding: 10px;
+    border-radius: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    width: 200px;
+    height: 250px;
+    font-size: 20px;
+}

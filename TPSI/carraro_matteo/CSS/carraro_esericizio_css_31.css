@@ -1,0 +1,17 @@
+#img1{
+    margin: auto;
+    background-image: url("Colline.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    width: 400px;
+}
+
+#text{
+top: 100px;
+position: relative;
+height: 60px;
+text-align: center;
+background-color: rgba(224, 219, 219, 0.8);
+font-size: 30px;
+padding-top: 30px;
+}
